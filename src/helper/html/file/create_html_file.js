@@ -22,7 +22,7 @@ let createHtmlFile = (function () {
         html = html + `\t<div class="footer">\n`;
         html = html + `\t\t<div class="description">\n`;
         html = html + `\t\t\tList of most active GitHub users based on public contributions by country.\n`;
-        html = html + `\t\t\tGo to repository <a href="https://github.com/gayanvoice/top-github-users">gayanvoice/top-github-users</a>\n`;
+        html = html + `\t\t\tGo to repository <a href="https://github.com/xavifortes/top-github-users">xavifortes/top-github-users</a>\n`;
         html = html + `\t\t</div>\n`;
         html = html + `\t</div>\n`;
         html = html + `\t<script type="application/javascript">\n`;

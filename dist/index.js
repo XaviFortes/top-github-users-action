@@ -12888,7 +12888,7 @@ let createHtmlFile = (function () {
         html = html + `\t<div class="footer">\n`;
         html = html + `\t\t<div class="description">\n`;
         html = html + `\t\t\tList of most active GitHub users based on public contributions by country.\n`;
-        html = html + `\t\t\tGo to repository <a href="https://github.com/gayanvoice/top-github-users">gayanvoice/top-github-users</a>\n`;
+        html = html + `\t\t\tGo to repository <a href="https://github.com/xavifortes/top-github-users">xavifortes/top-github-users</a>\n`;
         html = html + `\t\t</div>\n`;
         html = html + `\t</div>\n`;
         html = html + `\t<script type="application/javascript">\n`;
@@ -12978,14 +12978,14 @@ let headerComponent = function () {
         let markdown = ``;
         if(pageTitle === undefined && country === undefined){
             markdown = markdown + `# Top GitHub Users By Country `;
-            markdown = markdown + `[<img alt="Image of insights" src="https://github.com/gayanvoice/insights/blob/master/graph/373383893/small/week.png" height="24">](https://github.com/gayanvoice/insights/blob/master/readme/373383893/week.md)\n`
-            markdown = markdown + `[![Top GitHub Users](https://github.com/gayanvoice/top-github-users/actions/workflows/action.yml/badge.svg)](https://github.com/gayanvoice/top-github-users/actions/workflows/action.yml) `;
-            markdown = markdown + `[![Image of insights](https://github.com/gayanvoice/insights/blob/master/svg/373383893/badge.svg)](https://github.com/gayanvoice/insights/blob/master/readme/373383893/week.md)\n\n`;
+            markdown = markdown + `[<img alt="Image of insights" src="https://github.com/xavifortes/insights/blob/master/graph/373383893/small/week.png" height="24">](https://github.com/xavifortes/insights/blob/master/readme/373383893/week.md)\n`
+            markdown = markdown + `[![Top GitHub Users](https://github.com/xavifortes/top-github-users/actions/workflows/action.yml/badge.svg)](https://github.com/xavifortes/top-github-users/actions/workflows/action.yml) `;
+            markdown = markdown + `[![Image of insights](https://github.com/xavifortes/insights/blob/master/svg/373383893/badge.svg)](https://github.com/xavifortes/insights/blob/master/readme/373383893/week.md)\n\n`;
         } else {
             markdown = markdown + `# Top GitHub Users By ${pageTitle} in ${country} `;
-            markdown = markdown + `[<img alt="Image of insights" src="https://github.com/gayanvoice/insights/blob/master/graph/373383893/small/week.png" height="24">](https://github.com/gayanvoice/insights/blob/master/readme/373383893/week.md)\n`
-            markdown = markdown + `[![Top GitHub Users](https://github.com/gayanvoice/top-github-users/actions/workflows/action.yml/badge.svg)](https://github.com/gayanvoice/top-github-users/actions/workflows/action.yml) `;
-            markdown = markdown + `[![Image of insights](https://github.com/gayanvoice/insights/blob/master/svg/373383893/badge.svg)](https://github.com/gayanvoice/insights/blob/master/readme/373383893/week.md)\n\n`;
+            markdown = markdown + `[<img alt="Image of insights" src="https://github.com/xavifortes/insights/blob/master/graph/373383893/small/week.png" height="24">](https://github.com/xavifortes/insights/blob/master/readme/373383893/week.md)\n`
+            markdown = markdown + `[![Top GitHub Users](https://github.com/xavifortes/top-github-users/actions/workflows/action.yml/badge.svg)](https://github.com/xavifortes/top-github-users/actions/workflows/action.yml) `;
+            markdown = markdown + `[![Image of insights](https://github.com/xavifortes/insights/blob/master/svg/373383893/badge.svg)](https://github.com/xavifortes/insights/blob/master/readme/373383893/week.md)\n\n`;
         }
         return markdown;
     }
@@ -13006,7 +13006,7 @@ let licenseComponent = function () {
         markdown = markdown + `- GitHub Action - [${githubUserAndRepository}-action](https://github.com/${githubUserAndRepository}-action)\n`;
         markdown = markdown + `- Repository - [${githubUserAndRepository}](https://github.com/${githubUserAndRepository})\n`;
         markdown = markdown + `- Data in the \`./cache\` directory - [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)\n`;
-        markdown = markdown + `- Code - [MIT](./LICENSE) © [Gayan Kuruppu](https://github.com/gayanvoice)\n`;
+        markdown = markdown + `- Code - [MIT](./LICENSE) © [Gayan Kuruppu](https://github.com/xavifortes)\n`;
         return markdown;
     }
     return {
@@ -13089,57 +13089,57 @@ let socialMediaComponent = (function () {
             {
                 site: `Facebook`,
                 shareUrl: `https://web.facebook.com/${facebookPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/raw/master/public/images/icons/facebook.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/raw/master/public/images/icons/facebook.svg`,
             },
             {
                 site: `Facebook Messenger`,
                 shareUrl: `https://www.facebook.com/dialog/${facebookMessengerPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/raw/master/public/images/icons/facebook_messenger.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/raw/master/public/images/icons/facebook_messenger.svg`,
             },
             {
                 site: `Twitter`,
                 shareUrl: `https://twitter.com/intent/${twitterPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/raw/master/public/images/icons/twitter.svg`
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/raw/master/public/images/icons/twitter.svg`
             },
             {
                 site: `WhatsApp`,
                 shareUrl: `https://web.whatsapp.com/${whatsAppPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg`
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg`
             },
             {
                 site: `Telegram`,
                 shareUrl: `https://t.me/share/${telegramPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg`
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/telegram.svg`
             },
             {
                 site: `LinkedIn`,
                 shareUrl: `https://www.linkedin.com/${linkedInPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg`
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg`
             },
             {
                 site: `Vkontakte`,
                 shareUrl: `https://vk.com/${vkontaktePost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/vkontakte.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/vkontakte.svg`,
             },
             {
                 site: `Blogger`,
                 shareUrl: `https://www.blogger.com/${bloggerPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/blogger.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/blogger.svg`,
             },
             {
                 site: `Wordpress`,
                 shareUrl: `https://wordpress.com/wp-admin/${wordpressPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/wordpress.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/wordpress.svg`,
             },
             {
                 site: `Email`,
                 shareUrl: `mailto:recipient ${email}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg`
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/gmail.svg`
             },
             {
                 site: `Reddit`,
                 shareUrl: `https://www.reddit.com/${redditPost}`,
-                iconUrl: `https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/reddit.svg`,
+                iconUrl: `https://github.com/xavifortes/github-active-users-monitor/blob/master/public/images/icons/reddit.svg`,
             }
         ];
         let table = `<table>\n`;
@@ -13413,7 +13413,7 @@ let createFollowersPage = (function () {
     let create = function (outputMarkdownModel) {
         let country = formatMarkdown.capitalizeTheFirstLetterOfEachWord(outputMarkdownModel.locationDataModel.country);
         let markdown = headerComponent.create(`Followers`, country);
-        markdown = markdown + `<a href="https://gayanvoice.github.io/top-github-users/index.html">\n`;
+        markdown = markdown + `<a href="https://xavifortes.github.io/top-github-users/index.html">\n`;
         markdown = markdown + `\t<img align="right" width="200" src="${outputMarkdownModel.locationDataModel.imageUrl}" alt="${country}">\n`;
         markdown = markdown + `</a>\n\n`;
         markdown = markdown + `The \`number of followers\` of users in ${country} on \`${formatMarkdown.getDate()}\`. `;
@@ -13495,17 +13495,17 @@ let createIndexPage = (function () {
     }
     let create = function (githubUsernameAndRepository, readConfigResponseModel) {
         let markdown = headerComponent.create();
-        markdown = markdown + `<a href="https://gayanvoice.github.io/top-github-users/index.html">\n`;
-        markdown = markdown + `\t<img align="right" width="400" src="https://github.com/gayanvoice/top-github-users-monitor/raw/master/public/images/banner/top-github-users-map.png" alt="top-github-users-by-country">\n`;
+        markdown = markdown + `<a href="https://xavifortes.github.io/top-github-users/index.html">\n`;
+        markdown = markdown + `\t<img align="right" width="400" src="https://github.com/xavifortes/top-github-users-monitor/raw/master/public/images/banner/top-github-users-map.png" alt="top-github-users-by-country">\n`;
         markdown = markdown + `</a>\n\n`;
         markdown = markdown + `List of most active GitHub users based on \`public contributions\` \`private contributions\` and \`number of followers\`  by country or state. `;
         markdown = markdown + `The list updated \`${formatMarkdown.getDate()}\`.\n\n`;
         markdown = markdown + `This repository contains users \`${readConfigResponseModel.locations.length} countries\` and \`${formatMarkdown.getNumberOfCities(readConfigResponseModel)} cities\`. \n`;
         markdown = markdown + `To get into the list you need to have minimum number of followers that varies in each country. `;
         markdown = markdown + `The list can be found in [config.json](https://github.com/${githubUsernameAndRepository}/blob/main/config.json).\n\n`;
-        markdown = markdown + `Contribute to GitHub action [gayanvoice/top-github-users-action](https://github.com/gayanvoice/top-github-users-action). `;
-        markdown = markdown + `The project maintained by [gayanvoice](https://github.com/gayanvoice). `
-        markdown = markdown + `Don't forget to follow him on [GitHub](https://github.com/gayanvoice), [Twitter](https://twitter.com/gayanvoice), and [Medium](https://gayanvoice.medium.com/).\n\n`;
+        markdown = markdown + `Contribute to GitHub action [xavifortes/top-github-users-action](https://github.com/xavifortes/top-github-users-action). `;
+        markdown = markdown + `The project maintained by [xavifortes](https://github.com/xavifortes). `
+        markdown = markdown + `Don't forget to follow him on [GitHub](https://github.com/xavifortes), [Twitter](https://twitter.com/xavifortes), and [Medium](https://xavifortes.medium.com/).\n\n`;
         markdown = markdown + starComponent.create();
         markdown = markdown + `### 🚀 Share on\n\n`;
         markdown = markdown + socialMediaComponent.create(
@@ -13584,7 +13584,7 @@ let createPublicContributionsPage = (function () {
     let create = function (outputMarkdownModel) {
         let country = formatMarkdown.capitalizeTheFirstLetterOfEachWord(outputMarkdownModel.locationDataModel.country);
         let markdown = headerComponent.create(`Public Contributions`, country);
-        markdown = markdown + `<a href="https://gayanvoice.github.io/top-github-users/index.html">\n`;
+        markdown = markdown + `<a href="https://xavifortes.github.io/top-github-users/index.html">\n`;
         markdown = markdown + `\t<img align="right" width="200" src="${outputMarkdownModel.locationDataModel.imageUrl}" alt="${country}">\n`;
         markdown = markdown + `</a>\n\n`;
         markdown = markdown + `The \`public contributions\` by users in ${country} on \`${formatMarkdown.getDate()}\`. `;
@@ -13673,7 +13673,7 @@ let createTotalContributionsPage = (function () {
     let create = function (outputMarkdownModel) {
         let country = formatMarkdown.capitalizeTheFirstLetterOfEachWord(outputMarkdownModel.locationDataModel.country);
         let markdown = headerComponent.create(`Total Contributions`, country);
-        markdown = markdown + `<a href="https://gayanvoice.github.io/top-github-users/index.html">\n`;
+        markdown = markdown + `<a href="https://xavifortes.github.io/top-github-users/index.html">\n`;
         markdown = markdown + `\t<img align="right" width="200" src="${outputMarkdownModel.locationDataModel.imageUrl}" alt="${country}">\n`;
         markdown = markdown + `</a>\n\n`;
         markdown = markdown + `The \`public contributions\` and \`private contributions\` by users in ${country} on \`${formatMarkdown.getDate()}\`. `;
@@ -13769,8 +13769,8 @@ module.exports = requestOctokit;
 
 /*!
  * top-github-users-monitor 2.0.0
- * https://github.com/gayanvoice/top-github-users-monitor
- * (c) 2021 gayanvoice
+ * https://github.com/xavifortes/top-github-users-monitor
+ * (c) 2021 xavifortes
  * Released under the MIT License
  */
 const pullGit = __nccwpck_require__(8591);
@@ -13792,7 +13792,7 @@ const formatMarkdown = __nccwpck_require__(3164);
 const OutputMarkdownModel = __nccwpck_require__(4343);
 let Index = function () {
     // const AUTH_KEY = "";
-    // const GITHUB_USERNAME_AND_REPOSITORY = 'gayanvoice/top-github-users';
+    // const GITHUB_USERNAME_AND_REPOSITORY = 'xavifortes/top-github-users';
     const AUTH_KEY = process.env.CUSTOM_TOKEN;
     const GITHUB_USERNAME_AND_REPOSITORY = process.env.GITHUB_REPOSITORY;
     const MAXIMUM_ERROR_ITERATIONS = 4;

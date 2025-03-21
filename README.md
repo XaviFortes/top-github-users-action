@@ -1,12 +1,12 @@
-# Top GitHub Users Action <img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" height=48 width=48 /> [<img alt="Image of my-profile-views-counter" src="https://github.com/gayanvoice/my-profile-views-counter/blob/master/graph/373376349/small/week.png" height="20">](https://github.com/gayanvoice/my-profile-views-counter/blob/master/readme/373376349/week.md)
-[![Image of my-profile-views-counter](https://github.com/gayanvoice/my-profile-views-counter/blob/master/svg/373376349/badge.svg)](https://github.com/gayanvoice/my-profile-views-counter/blob/master/readme/373376349/week.md)
+# Top GitHub Users Action <img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" height=48 width=48 /> [<img alt="Image of my-profile-views-counter" src="https://github.com/xavifortes/my-profile-views-counter/blob/master/graph/373376349/small/week.png" height="20">](https://github.com/xavifortes/my-profile-views-counter/blob/master/readme/373376349/week.md)
+[![Image of my-profile-views-counter](https://github.com/xavifortes/my-profile-views-counter/blob/master/svg/373376349/badge.svg)](https://github.com/xavifortes/my-profile-views-counter/blob/master/readme/373376349/week.md)
 
-Check your rank in GitHub! Get the list of active users in GitHub by country using GitHub Graph API. Go to [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users).
+Check your rank in GitHub! Get the list of active users in GitHub by country using GitHub Graph API. Go to [xavifortes/top-github-users](https://github.com/xavifortes/top-github-users).
 
 ### How it works?
-The list of countries and the cities are sorted in [config.json](https://github.com/gayanvoice/top-github-users/blob/main/config.json) as an array. The [octokit/graphql.js](https://www.npmjs.com/package/@octokit/graphql) fetches the data from GitHub Graph API. After the fetch is completed, it creates a JSON file by country name in [./cache](https://github.com/gayanvoice/top-github-users/tree/main/cache). The [checkpoint.json](https://github.com/gayanvoice/top-github-users/blob/main/checkpoint.json) is used to checkpoint the country.
+The list of countries and the cities are sorted in [config.json](https://github.com/xavifortes/top-github-users/blob/main/config.json) as an array. The [octokit/graphql.js](https://www.npmjs.com/package/@octokit/graphql) fetches the data from GitHub Graph API. After the fetch is completed, it creates a JSON file by country name in [./cache](https://github.com/xavifortes/top-github-users/tree/main/cache). The [checkpoint.json](https://github.com/xavifortes/top-github-users/blob/main/checkpoint.json) is used to checkpoint the country.
 
-The action gets the list of users and order it by public contributions, total contributions, and number of followers from cache to generate markdowns, and ranking. The [./docs](https://github.com/gayanvoice/top-github-users/tree/main/docs) contains the rankings of total public contirubtions by country.
+The action gets the list of users and order it by public contributions, total contributions, and number of followers from cache to generate markdowns, and ranking. The [./docs](https://github.com/xavifortes/top-github-users/tree/main/docs) contains the rankings of total public contirubtions by country.
 
 <table>
 	<tr>
@@ -80,7 +80,7 @@ jobs:
       - uses: actions/setup-node@v2.1.5
         with:
           node-version: 14.17.0
-      - uses: gayanvoice/top-github-users-action@master
+      - uses: xavifortes/top-github-users-action@master
         env:
           CUSTOM_TOKEN: ${{ secrets.CUSTOM_TOKEN }}
 
@@ -114,10 +114,10 @@ jobs:
 **1 —** Clone this repository to your computer.
 
 **2 —** Edit *index.js*
-📋 paste the `personal access token` in `AUTH_KEY` in https://github.com/gayanvoice/top-github-users-action/blob/master/src/index.js and comment *process.env* secrets.
+📋 paste the `personal access token` in `AUTH_KEY` in https://github.com/xavifortes/top-github-users-action/blob/master/src/index.js and comment *process.env* secrets.
 ```javascript
     const AUTH_KEY = "ghp_vbmFdybMFCxWzvrgC*************";
-    const GITHUB_USERNAME_AND_REPOSITORY = 'gayanvoice/top-github-users';
+    const GITHUB_USERNAME_AND_REPOSITORY = 'xavifortes/top-github-users';
     // const AUTH_KEY = process.env.CUSTOM_TOKEN;
     // const GITHUB_USERNAME_AND_REPOSITORY = process.env.GITHUB_REPOSITORY;
 ```
@@ -131,7 +131,7 @@ npm test
 - [fs-extra](https://www.npmjs.com/package/fs-extra) - Creating directories and files.
 - [simple-git](https://www.npmjs.com/package/simple-git) - Handling Git commands.
 ## 📄 License
-- GitHub Action - [gayanvoice/top-github-users-action](https://github.com/gayanvoice/top-github-users-action)
-- Repository - [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users)
+- GitHub Action - [xavifortes/top-github-users-action](https://github.com/xavifortes/top-github-users-action)
+- Repository - [xavifortes/top-github-users](https://github.com/xavifortes/top-github-users)
 - Data in the `./cache` directory - [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
-- Code - [MIT](./LICENSE) © [Gayan Kuruppu](https://github.com/gayanvoice)
+- Code - [MIT](./LICENSE) © [Gayan Kuruppu](https://github.com/xavifortes)

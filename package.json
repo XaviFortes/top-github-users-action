@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gayanvoice/top-github-users-action.git"
+    "url": "git+https://github.com/xavifortes/top-github-users-action.git"
   },
   "keywords": [
     "GitHub",
@@ -19,9 +19,9 @@
   "author": "Gayan Kuruppu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gayanvoice/top-github-users-action/issues"
+    "url": "https://github.com/xavifortes/top-github-users-action/issues"
   },
-  "homepage": "https://github.com/gayanvoice/top-github-users-action#readme",
+  "homepage": "https://github.com/xavifortes/top-github-users-action#readme",
   "dependencies": {
     "@octokit/graphql": "4.6.2",
     "fs-extra": "9.1.0",
